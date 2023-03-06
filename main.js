@@ -1,8 +1,4 @@
 const audio = new Audio();
-const pour = new Audio("audio/bottled.mp3");
-const opened = new Audio("audio/open.mp3");
-const mixed = new Audio("audio/mixed.mp3");
-const drink = new Audio("audio/drink.mp3");
 
 document.body.addEventListener("keydown", function (e) {
   delActive();
