@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-image: url("image/bcg_coctail.jpg");
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(6,11,14);
+}
+body{
+    padding: 0;
+    margin: 0;
+    height:100vh;
+    width: 100vw;
+
+}
+#keys{
+    display: flex;
+
+}
+.key{
+    margin: 10px;
+    background-color: #2b4b22e3;
+    border: 10px solid #0a2503;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: bisque;
+    font-size: 24px;
+}
+.key p{
+    margin: 10px;
+}
+.subscribe{
+    font-size: 16px;
+    padding-top: 25px;
+}
+.active{
+    border: 8px solid rgb(140, 140, 60);
+    filter: drop-shadow(0px 0px 0.75rem rgb(188, 210, 98));
+}
